@@ -1,0 +1,119 @@
+	<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>EL Séries</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="EL Séries">
+		<meta name="keywords" content="sobreséries,sobrefilmes">
+		<link rel="stylesheet" type="text/css" href="projeto.css">
+		<script src="projeto.js"></script>
+	</head>
+	<body>
+		<header>
+		<img src="Banner.png" alt="Banner de séries e Filmes" width="1000px" height="500px" id="imagem">
+		<h1>EL Séries<h1>
+		</header>
+		<nav>
+			<ul class="menu principal">
+				<li><a href=" ">Home</a></li>
+				<li><a href=" ">Filmes</a>
+					<ul class="sub-menu">
+						<li><a href=" ">Animação</a>
+							<ul class="sub-menu">
+								<li><a href="filmes_4.html">Frozen</a></li>
+							</ul>
+						</li>
+						<li><a href=" ">Ação</a>
+							<ul class="sub-menu">
+								<li><a href="filmes_1.html">Star Wars</a></li>
+							</ul>
+						</li>
+						<li><a href=" ">Comédia</a>
+							<ul class="sub-menu">
+								<li><a href="filmes_3.html">Mamma Mia</a></li>
+								<li><a href="filmes_5.html">O diabo veste prada</a></li>
+							</ul>
+						</li>
+						<li><a href=" ">Drama</a>
+							<ul class="sub-menu">
+								<li><a href="filmes_2.html">Into the woods</a></li>
+							</ul>
+						</li>
+						<li><a href=" ">Suspense</a></li>
+						<li><a href=" ">Terror</a></li>
+					</ul>
+				</li>
+				<li><a href=" ">Séries</a>
+					<ul class="sub-menu principal">
+						<li><a href=" ">Animação</a>
+							<ul class="sub-menu">
+								<li><a href="serie3.html">South Park</a></li>
+							</ul>
+						</li>
+						<li><a href=" ">Comédia</a>
+							<ul class="sub-menu">
+								<li><a href="serie2.html">Friends</a></li>
+							</ul>
+						</li>
+						<li><a href=" ">Drama</a>
+							<ul class="sub-menu">
+								<li><a href="serie1.html">House</a></li>
+							</ul>
+						</li>
+						<li><a href=" ">Policial</a>
+							<ul class="sub-menu">
+								<li><a href="serie4.html">Law&Order: Special Victims Unit</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="fale_conosco.html">Fale conosco</a></li>
+				<li><a href="sobre_nos.html">Sobre nós</a></li>
+			</ul>
+		</nav>
+		<aside>
+			<form id="home" name="formulario">
+			<p>Para receber novidades</p>
+			<input type="radio"  id="series" name="novo1" value="novasseries" onclick="novo1.checked=true;novo2.checked=false;novo3.checked=false"><label for="series">Novas séries</label><br>
+			<input type="radio" id="filmes" name="novo2" value="novosfilmes"onclick="novo2.checked=true;novo1.checked=false;novo3.checked=false"><label for="filmes">Novos filmes</label><br>
+			<input type="radio" id="filmeseseries" name="novo3" value="novosfilmeseseries"onclick="novo3.checked=true;novo1.checked=false;novo2.checked=false"><label for="filmeseseries">Novos filmes e Séries</label><br>
+			<label for="email1">Email:<input type="email" name="email1" id="email1" placeholder="Digite seu email aqui"></label><br>
+			<input type="submit" value="Enviar" id="submit1" onclick="verificarSenha()">
+			<p id="selecao"></p>
+			<p id="validacao"></p>
+			</form>
+		</aside>
+		<article class="H">
+			<figure>
+				<a href="serie1.html"><img src="http://www.subs4series.com/imdbphp_new/images/0412142.jpg" height="450px" width="280px" alt="House"></a>
+				<figcaption>Leia nossa opinião sobre o médico mais brilhante e excentrico de todos!</figcaption>
+			</figure>
+		</article>
+		<article class="H">
+			<figure>
+				<a href="serie2.html"><img src="http://www.hercampus.com/sites/default/files/2015/09/21/2124371385.jpg" height="280px" width="450px" alt="Friends"></a>
+				<figcaption> Leia nossa opinião sobre o grupo de amigos mais engraçado da TV!</figcaption>
+			</figure>
+		</article>
+		<article class="H">
+			<figure>
+				<a href="filmes_5.html"><img src="http://www.proflucas.com/wordpress/wp-content/uploads/2014/07/1937-2006-09-16-13-58-40_1.jpg" height="450px" width="280" alt="O Diabo Veste Prada"></a>
+				<figcaption> Leia nossa opinião uma garota que vai descobrir que o mundo da moda não é só glamour!</figcaption>
+			</figure>
+		</article>
+		<article class="H">
+			<figure>
+				<a href="filmes_2.html"><img src="https://inkdropsreviews.files.wordpress.com/2015/06/into_the_woods_2014_red_blue_movie_poster_hd-wallpaper-1892454.jpg" height="280px" width="450px" alt="Into the wood"></a>
+				<figcaption> Leia nossa opinião uma floresta que pode transformar a vida e mudar seu conceito sobre felizes para sempre!</figcaption>
+			</figure>
+		</article>
+		<hr>
+		<footer>
+		  <small>@ Copyright 2016-2016 EL Séries</small> 
+		</footer>
+	</body>
+
+
+
+<html>
