@@ -1,6 +1,0 @@
-1- Home não levando a lugar algum (mudar em todas as páginas)
-2- Email registrado! aparecendo duas vezes
-3- Submenu de gêneros não é necessário href, só a parte que leva diretamente a série
-4- Lógica da função do fale conosco 
-5- Dê sua avaliação! está aparecendo como !Dê sua avaliação (???)
-6- CSS da parte do menu/submenu
