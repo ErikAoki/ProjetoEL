@@ -9,14 +9,14 @@
 		<link rel="stylesheet" type="text/css" href="projeto.css">
 		<script src="projeto.js"></script>
 	</head>
-	<body>
+	<body onload="slide1()">
 		<header>
-			<img src="Banner.png" alt="Banner de séries e Filmes" width="1000" height="500">
-			<h1>EL Séries<h1>
+			<img src="Banner.png" alt="Banner de séries e Filmes" width="1000" height="500" id="imagem" onload="slide1()">
+			<center><h1>EL Séries<h1></center>
 		</header>
 		<nav>
 			<ul class="menu principal">
-				<li><a href=" ">Home</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li><a href=" ">Filmes</a>
 					<ul class="sub-menu">
 						<li><a href=" ">Animação</a>
@@ -85,9 +85,15 @@
 			   com que o caminho dos personagens se cruzem mais de uma vez e que as histórias se misturem, e sempre como personagem e aplco principal a floresta.
 			   Esse é um filme em formato de musical por isso conta com musicas muito interessantes e divertidas, elas ajudam a amenizar o "clima" do filme. Eu gostei bastante e
 			   recomendo pra quem gosta desse estilo de filme.</p>
-			<br/>
-			<br/>
 		</article>
+			<br/>
+			<br/>
+			<p id="filmes">Dê sua avaliação!</p>
+		<div class="rating">
+			<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+		</div>
+			<br/>
+			<br/>
 		<article class="grupo">
 			<img src="http://www.gavetaalternativa.com.br/wp-content/uploads/2015/03/wish.jpg" height="180px" width="250px" alt="Into the woods poster">
 			<img src="http://br.web.img2.acsta.net/c_640_360/videothumbnails/14/12/23/11/28/232373.jpg" height="180px" width="250px" alt="Padeiro e sua esposa">

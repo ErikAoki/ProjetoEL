@@ -39,13 +39,24 @@ function mensagem(){
 		document.getElementById("mensagem").innerHTML = text;
 	}
 }
-//Filmes
-//Tamanho das imagens
-function imagemTamanho(grupo){
-	grupo.width = grupo.width+300;
-	grupo.height = grupo.height+300;
+//Função de slides do banner
+function slide1(){
+	document.getElementById("imagem").src = "Banner.png"
+	setTimeout("slide2()", 3000);
 }
-function tamanhoNormal(im){
-	grupo.width = 180;
-	grupo.height = 250;
+function slide2(){
+	document.getElementById("imagem").src = "Banner2.png"
+	setTimeout("slide3()", 3000);
+}
+function slide3(){
+	document.getElementById("imagem").src = "Banner3.png"
+	setTimeout("slide4()", 3000);
+}
+function slide4(){
+	document.getElementById("imagem").src = "Banner4.png"
+	setTimeout("slide5()", 3000);
+}
+function slide5(){
+	document.getElementById("imagem").src = "Banner5.png"
+	setTimeout("slide1()", 3000);
 }

@@ -9,14 +9,14 @@
 		<link rel="stylesheet" type="text/css" href="projeto.css">
 		<script src="projeto.js"></script>
 	</head>
-	<body>
+	<body onload="slide1()">
 		<header>
-			<img src="Banner.png" alt="Banner de séries e Filmes" width="1000" height="500">
-			<h1>EL Séries<h1>
+			<img src="Banner.png" alt="Banner de séries e Filmes" width="1000" height="500" id="imagem" onload="slide1()">
+			<center><h1>EL Séries<h1></center>
 		</header>
 		<nav>
 			<ul class="menu principal">
-				<li><a href=" ">Home</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li><a href=" ">Filmes</a>
 					<ul class="sub-menu">
 						<li><a href=" ">Animação</a>
@@ -83,9 +83,15 @@
 			   sua mãe os convidando para o casamento, e lógico os três aceitam. O filme se passa em uma ilha da Grécia, um ponto muito favorável ao filme são as músicas 
 			   bastante alegres e o "clima" descontraído, o filme é muito engraçado e não perde o humor nem por um momento duranto todo o filme pra quem gosta de filme de
 			   comédia e de músicais eu recomendo que assistam.</p>
-			<br/>
-			<br/>
 		</article>
+			<br/>
+			<br/>
+			<p id="filmes">Dê sua avaliação!</p>
+		<div class="rating">
+			<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+		</div>
+			<br/>
+			<br/>
 		<article class="grupo">
 			<img src="http://billboard.com.br/wp-content/uploads/2014/10/2-mamma-mia.jpg" height="180px" width="250px" alt="Donna, Tanya e Rosie">
 			<img src="http://br.web.img2.acsta.net/r_640_600/b_1_d6d6d6/medias/nmedia/18/65/61/22/18960010.jpg" height="180px" width="250px" alt="Bill, Sam e Harry">

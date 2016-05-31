@@ -8,16 +8,14 @@
 		<link rel="stylesheet" type="text/css" href="projeto.css">
 		<script src="projeto.js"></script>
 	</head>
-	<body>
+	<body onload="slide1()">
 		<header>
-			<figure>
-			<img src="Banner.png" alt="Banner de séries e Filmes" width="1000" height="500">
-			</figure>
-			<h1>EL Séries<h1>
+			<img src="Banner.png" alt="Banner de séries e Filmes" width="1000px" height="500px" id="imagem">
+		<center>	<h1>EL Séries<h1> </center>
 		</header>
 		<nav>
 			<ul class="menu principal">
-				<li><a href=" ">Home</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li><a href=" ">Filmes</a>
 					<ul class="sub-menu">
 						<li><a href=" ">Animação</a>
@@ -73,31 +71,27 @@
 				<li><a href="sobre_nos.html">Sobre nós</a></li>
 			</ul>
 		</nav>
-		<article>
+		<center><article class="conosco">
 			<h1>Fale conosco</h1>
-			<form id="conosco" name="formulario2">
-				<label for="name">Name</label>
+			<form>
+				<label>Name</label>
 				<br>
-				<input name="name" id="name" placeholder="Digite seu nome aqui">
+				<input name="name" placeholder="Digite seu nome aqui">
 				<br>
-				<label for="email2">Email</label>
+				<label>Email</label>
 				<br>
-				<input name="email2" type="email" id="email2" placeholder="Digite seu email aqui">
+				<input name="email" type="email" placeholder="Digite seu email aqui">
 				<br>
-				<label for="message" >Message</label>
+				<label>Message</label>
 				<br>
-				<textarea name="message" id="message" placeholder="Digite seu texto aqui"></textarea>
+				<textarea name="message" placeholder="Digite seu texto aqui"></textarea>
 				<br>
-				<input id="submit2" name="submit" type="submit" value="Submit" onclick="mensagem()">
-				<p id="mensagem"></p>
+				<input id="submit" name="submit" type="submit" value="Submit">
 			</form>
-		</article>
-		<hr>
+		<hr color="#052E38">
+		</article></center>
 		<footer>
 		  <small>@ Copyright 2016-2016 EL Séries</small> 
 		</footer>
 	</body>
-
-
-
 <html>

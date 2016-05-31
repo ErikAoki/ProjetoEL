@@ -9,14 +9,16 @@
 		<link rel="stylesheet" type="text/css" href="projeto.css">
 		<script src="projeto.js"></script>
 	</head>
-	<body class="series">
+	<body onload="slide1()">
 		<header>
-			<img src="Banner.png" alt="Banner de séries e Filmes" width="1000" height="500">
-			<h1>EL Séries<h1>
+			<figure>
+			<img src="Banner.png" alt="Banner de séries e Filmes" width="1000" height="500" id="imagem" onload="slide1()">
+			</figure>
+		<center>	<h1>EL Séries<h1> </center>
 		</header>
 		<nav>
 			<ul class="menu principal">
-				<li><a href=" ">Home</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li><a href=" ">Filmes</a>
 					<ul class="sub-menu">
 						<li><a href=" ">Animação</a>
@@ -72,6 +74,8 @@
 				<li><a href="sobre_nos.html">Sobre nós</a></li>
 			</ul>
 		</nav>
+		<br/>
+		<br/>
 		<center><article class="series">
 			<h2>House</h2>
 			<img src="https://fergalcasey.files.wordpress.com/2011/08/house.jpg" alt="imagem de casa" height="500" width="350">
@@ -89,10 +93,17 @@
 			<img src="https://s-media-cache-ak0.pinimg.com/736x/e4/3c/04/e43c04fc8abe9660ea2e9e9d343737fb.jpg" alt="elenco" height="180" width="250"><br>
 			E para quem não sabe, a série é baseada no famoso detetive Sherlock Holmes, e como Sherlock, House também tem um melhor amigo que o acompanha, 
 			sendo neste caso, o médico oncologista James Wilson. House representando o lado racional e Wilson o lado emocional.<br>
-			<img src="https://s-media-cache-ak0.pinimg.com/736x/c5/87/14/c587148ce62cbdad14255459a0c7e942.jpg" alt="Wilson" height="180" width="250"><br>
+			<img src="https://s-media-cache-ak0.pinimg.com/736x/c5/87/14/c587148ce62cbdad14255459a0c7e942.jpg" alt="Wilson" height="180" width="250">
+			<br>
 			Recomendo esta série a todos, possui um elenco perfeito, ótima trilha sonora, e dou a nota de 10/10 para esta série.<br>
 			</p>
+			<br/>
+			<br/>
 		</article></center>
+		<p id="filmes">Dê sua avaliação!</p>
+		<div class="rating">
+			<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+		</div>
 		<hr>
 		<footer>
 		  <small>@ Copyright 2016-2016 EL Séries</small> 

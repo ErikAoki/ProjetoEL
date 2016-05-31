@@ -9,14 +9,14 @@
 		<link rel="stylesheet" type="text/css" href="projeto.css">
 		<script src="projeto.js"></script>
 	</head>
-	<body>
+	<body onload="slide1()">
 		<header>
-			<img src="Banner.png" alt="Banner de séries e Filmes" width="1000" height="500" id="imagem">
-			<h1>EL Séries<h1>
+			<img src="Banner.png" alt="Banner de séries e Filmes" width="1000" height="500" id="imagem" onload="slide1()">
+			<center><h1>EL Séries<h1></center>
 		</header>
 		<nav>
 			<ul class="menu principal">
-				<li><a href=" ">Home</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li><a href=" ">Filmes</a>
 					<ul class="sub-menu">
 						<li><a href=" ">Animação</a>
@@ -83,9 +83,15 @@
 			   bastante divertido e fofinho conta com personagens como o príncipe Hans, o vendedor de gelo Kristoff e sua rena Sven e o super divertido e engraçado
 			   Olaf, o boneco de neve que insiste em conhecer o verão. Eu recomendo para todos que gostam do estilo de filme em desenho animado pois mostra um outro 
 			   lado dos filmes da Disney, mais atual mas igualmente mágico.</p>
-			<br/>
-			<br/>
 		</article>
+			<br/>
+			<br/>
+			<p id="filmes">Dê sua avaliação!</p>
+		<div class="rating">
+			<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+		</div>
+			<br/>
+			<br/>
 		<article class="grupo">
 			<img src="https://i.ytimg.com/vi/ULlTDgaeVR8/maxresdefault.jpg" height="180px" width="250px" alt="Elsa e Anna crianças">
 			<img src="http://popcultureblog.dallasnews.com/files/2014/05/frozenelsaanna.jpg" height="180px" width="250px" alt="Elsa e Anna">

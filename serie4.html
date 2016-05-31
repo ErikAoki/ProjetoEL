@@ -9,14 +9,16 @@
 		<link rel="stylesheet" type="text/css" href="projeto.css">
 		<script src="projeto.js"></script>
 	</head>
-	<body>
-		<header>
-			<img src="Banner.png" alt="Banner de séries e Filmes" width="1000" height="500">
-			<h1>EL Séries<h1>
+	<body onload="slide1()">
+		<center><header>
+			<figure>
+			<img src="Banner.png" alt="Banner de séries e Filmes" width="1000" height="500" id="imagem" onload="slide1()">
+			</figure>
+			<h1>EL Séries<h1> </center>
 		</header>
 		<nav>
 			<ul class="menu principal">
-				<li><a href=" ">Home</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li><a href=" ">Filmes</a>
 					<ul class="sub-menu">
 						<li><a href=" ">Animação</a>
@@ -72,6 +74,8 @@
 				<li><a href="sobre_nos.html">Sobre nós</a></li>
 			</ul>
 		</nav>
+		<br/>
+		<br/>
 		<center><article class="series">
 			<h2>Law&Order: Special Victims Unit</h2>
 			<img src="http://images.vcpost.com/data/images/full/53587/law-order-svu.jpg?w=590" alt="imagem-laosvu" height="350" width="500">
@@ -90,7 +94,13 @@
 			Resumindo, se você quer assistir a uma ótima série policial, com personagens e casos envolventes, com uma boa mistura de drama e ação, eu recomendo 
 			esta série. Eu dou uma nota de 8.5/10.
 			</p>
+			<br/>
+			<br/>
 		</article></center>
+		<p id="filmes">Dê sua avaliação!</p>
+		<div class="rating">
+			<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+		</div>
 		<hr>
 		<footer>
 		  <small>@ Copyright 2016-2016 EL Séries</small> 
