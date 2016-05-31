@@ -71,25 +71,26 @@
 				<li><a href="sobre_nos.html">Sobre nós</a></li>
 			</ul>
 		</nav>
-		<center><article class="conosco">
+		<article>
 			<h1>Fale conosco</h1>
-			<form>
-				<label>Name</label>
+			<form id="conosco" name="formulario2">
+				<label for="name">Name</label>
 				<br>
-				<input name="name" placeholder="Digite seu nome aqui">
+				<input name="name" id="name" placeholder="Digite seu nome aqui">
 				<br>
-				<label>Email</label>
+				<label for="email2">Email</label>
 				<br>
-				<input name="email" type="email" placeholder="Digite seu email aqui">
+				<input name="email2" type="email" id="email2" placeholder="Digite seu email aqui">
 				<br>
-				<label>Message</label>
+				<label for="message" >Message</label>
 				<br>
-				<textarea name="message" placeholder="Digite seu texto aqui"></textarea>
+				<textarea name="message" id="message" placeholder="Digite seu texto aqui"></textarea>
 				<br>
-				<input id="submit" name="submit" type="submit" value="Submit">
+				<input id="submit2" name="submit" type="submit" value="Submit" onclick="mensagem()">
+				<p id="mensagem"></p>
 			</form>
-		<hr color="#052E38">
-		</article></center>
+		<hr>
+		</article>
 		<footer>
 		  <small>@ Copyright 2016-2016 EL Séries</small> 
 		</footer>
